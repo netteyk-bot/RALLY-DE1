@@ -77,8 +77,9 @@ module map (
 								is_wall = 1'b1;
                 end
                 
-                default: ; // Do nothing (empty map)
+                default: ; // (empty map)
             endcase
         end
     end
+
 endmodule
